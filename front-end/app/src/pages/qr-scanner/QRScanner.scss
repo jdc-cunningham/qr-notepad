@@ -1,8 +1,18 @@
 .QRNotepad__qr-scanner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
     #QRNotepad__video-playback {
         width: 100%;
         max-width: 480px;
         min-height: 320px;
         height: auto;
     }
+}
+
+.QRNotepad__qr-scanner-title {
+    font-size: 32px;
+    padding: 10px 0;
 }
